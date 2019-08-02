@@ -1,0 +1,10 @@
+---
+- name: demo with fetch module
+  hosts: 10.191.2.47
+  tasks:
+          - name: copy file from remote to local
+            fetch:
+                    src: ~/ansible_tutorial/demo1.yml
+                    dest: ~/surya/shell_script/ansible_scripts/
+                    flat:  no
+...
