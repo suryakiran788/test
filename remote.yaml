@@ -1,0 +1,9 @@
+---
+- name: test for accessing a remote machine
+  hosts: 10.191.2.47
+  tasks:
+          - apt:
+                  name: nginx
+                  state: latest
+
+...
