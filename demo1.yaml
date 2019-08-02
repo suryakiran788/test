@@ -1,0 +1,11 @@
+---
+- hosts: 10.191.2.47
+  become: yes
+  become_user: root
+  tasks:
+         - name: copy file from local to remote machine
+           copy:
+                    src: ~/surya/shell_script/w.sh
+                    dest: /tmp/123.conf
+...
+
