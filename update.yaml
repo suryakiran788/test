@@ -1,6 +1,6 @@
 ---
 - name: updation
-  hosts: 10.191.2.47
+  hosts: localhost
   tasks:
           - become: true
             name: updation of pip
