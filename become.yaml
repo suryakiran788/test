@@ -1,0 +1,11 @@
+---
+- name: example for become
+  hosts: localhost
+  become: true
+  become_user: root
+  become_method: sudo
+  tasks:
+          - apt:
+                  upgrade: yes
+
+...
