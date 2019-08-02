@@ -7,5 +7,7 @@
            copy:
                     src: ~/surya/shell_script/w.sh
                     dest: /tmp/123.conf
+
+hasdkjashkgdk
 ...
 
