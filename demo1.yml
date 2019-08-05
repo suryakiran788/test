@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  task:
+          - name: copy file from shell_script to ansible_script
+            copy:
+                    src: ~/surya/shell_script/123.conf
+                    dest: ~/surya/shell_script/ansible_script
+...
