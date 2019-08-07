@@ -1,0 +1,12 @@
+---
+- hosts: testserver
+  serial:
+          - "60%"
+  ignore_unreachable: true
+  tasks:
+          - remote_user: root
+            name: create directory
+            file:
+                    path: ~/my_di
+                    state: directory
+...
