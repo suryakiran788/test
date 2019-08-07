@@ -10,6 +10,6 @@
   handlers:
           - name: create new file 111.txt
             file:
-                    source: ./
+                    source: ./1.txt
                     state: create
 ...      
