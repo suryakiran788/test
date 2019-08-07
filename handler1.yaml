@@ -4,12 +4,12 @@
   tasks:
           - name: remove a file name as 111.txt
             file:
-                    source: become.yamlo 
+                    source: demo1.yml 
                     state: absent
             notify: recreate 111.txt
   handlers:
           - name: create new file 111.txt
             file:
-                    source: 
+                    source: ./
                     state: create
 ...      
