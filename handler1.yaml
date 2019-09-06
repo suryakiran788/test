@@ -4,7 +4,7 @@
   tasks:
           - name: remove a file name as 111.txt
             file:
-                    source: demo1.yml 
+                    source: /home/surya/111.txt 
                     state: absent
             notify: recreate 111.txt
   handlers:
