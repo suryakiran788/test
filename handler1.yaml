@@ -10,6 +10,6 @@
   handlers:
           - name: create new file 111.txt
             file:
-                    source: ./1.txt
+                    source: /home/suya/1.txt
                     state: create
 ...      
