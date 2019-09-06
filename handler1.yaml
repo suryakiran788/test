@@ -1,6 +1,6 @@
 ---
 - name: create delete a file and create new file with same name using handler
-  hosts: 10.191.2.47
+  hosts: localhost
   tasks:
           - name: remove a file name as 111.txt
             file:
